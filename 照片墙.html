@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>照片墙</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.frame{
+			height: 500px;
+			width: 1400px;
+			border:1px solid white;
+			margin: 100px auto;
+			background-color: skyblue;
+		}
+		.father1{
+			width: 1200px;
+			height:380px;
+			margin:60px auto;
+			background-color: pink;
+			list-style: none;
+		}
+		.father1>li{
+			float: left;
+			width: 190px;
+			height: 280px;
+			background-color: yellow;
+			margin:50px 55px;
+			transition: all 1s;
+		}
+		.father1>li:nth-child(1){
+			transform: rotateZ(15deg);
+		}
+		.father1>li:nth-child(2){
+			transform: rotateZ(-25deg);
+		}
+		.father1>li:nth-child(3){
+			transform: rotateZ(-15deg);
+		}
+		.father1>li:nth-child(4){
+			transform: rotateZ(30deg);
+		}
+		img{
+			width: 100%;
+			height: 100%;
+		}
+		.frame .father1:hover li{
+			opacity: 0.4;
+		}
+		.frame .father1 li:hover{
+			transform: rotateZ(0deg);
+			opacity: 1;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="frame">
+		<ul class="father1">
+			<li>
+				<img src="e:/img/beauty7.jpg" alt="">
+			</li>
+			<li>
+				<img src="e:/img/beauty8.jpg" alt="">
+			</li>
+			<li>
+				<img src="e:/img/beauty9.jpg" alt="">
+			</li>
+			<li>
+				<img src="e:/img/beauty10.jpg" alt="">
+			</li>
+		</ul>
+	</div>
+	
+</body>
+</html>
