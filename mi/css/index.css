@@ -1,0 +1,32 @@
+.top{
+	width: 100%;
+background-color: #333333;
+}
+.top-container .header-container-nav{
+	list-style: 
+}
+
+.header-container{
+	height: 40px;
+}
+.header{
+height: 100px;
+background-color: yellow;
+}
+.home{
+height: 1270px;
+background-color: blue;
+
+}
+.main{
+	height: 2057px;
+	background-color: green;
+}
+.footer{
+height: 275px;
+background-color: red;
+}
+.end{
+height: 148px;
+background-color: yellow;
+}
