@@ -1,13 +1,51 @@
 .top{
 	width: 100%;
-background-color: #333333;
+	background-color: #333;
 }
 .top-container .header-container-nav{
-	list-style: 
+	list-style: none;
 }
-
-.header-container{
+.top-container .header-container-nav li{
+	float: left;
 	height: 40px;
+	line-height: 40px;
+}
+.top-container .header-container-nav li span{
+	color: #413b36;
+	margin:0px 7px;
+}
+.top-container .top-container-shopping{
+	float: right;
+	width: 120px;
+	height: 40px;
+}
+.top-container .top-container-shopping a{
+	line-height: 40px;
+	display: block;
+	text-align: center;
+
+}
+.top-container .top-container-shopping a i{
+	font-size: 20px;
+	vertical-align: bottom;
+}
+.top-container .top-container-shopping:hover{
+	background-color: #fff;
+}
+.top-container .top-container-shopping:hover a{
+	color: red;
+}
+.top-container .top-container-personal{
+  float: right; 
+  margin-right: 45px;
+  line-height: 40px;
+}
+.top-container .top-container-personal ul li{
+	display: inline-block;
+}
+.top-container .top-container-personal ul li span{
+	color: #413b36;
+	margin:0px 7px; 
 }
 .header{
 height: 100px;
