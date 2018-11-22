@@ -110,6 +110,7 @@
 }
 .general-image-point-right .height2 li{
 	height: 300px;
+	background-color: white;
 }
 .general-image-point-right li:nth-child(4){
 	margin-left: 0px;
@@ -136,8 +137,8 @@
 .general-image-point-right .for-add-background{
 	width: 234px;
 	height: 340px;
-	background-color: rgba(238,238,238,0.8);
-	opacity: 0.3;
+	background-color: rgba(255,255,255,0.8);
+	opacity: 0.1;
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -388,6 +389,57 @@
 .header-container-input-search:focus ~ .header-container-magnifier{
 	border:1px solid #ff6700;
 }
+/*for-left-fixed-nav*/
+.header-container .for-left-fixed-nav{
+	position: fixed;
+	top: 30%;
+	right: 0px;
+}
+.header-container .for-left-fixed-nav li{
+	width: 80px;
+	height: 70px;
+	margin-bottom: 2px;
+	text-align: center;
+	border:1px solid #eee;
+	padding-top: 20px;
+	font-size: 20px;
+	background-color: white;
+}
+.header-container .for-left-fixed-nav li i{
+	font-size: 30px;
+}
+.header-container .for-left-fixed-nav li:hover i{
+ color: #ff6700;
+}
+ .header-container .for-left-fixed-nav li:hover p{
+ color: #ff6700;
+}
+ .header-container .for-recome-top{
+ 	position: fixed;
+ 	bottom: 30px;
+ 	right: 0px;
+ 	width: 80px;
+ 	height: 80px;
+ 	text-align: center;
+ 	padding-top: 10px;
+ 	box-sizing: border-box;
+ 	border:1px solid #eee;
+ 	background-color: white;
+ }
+ .header-container .for-recome-top i{
+ 	font-size: 30px;
+ 	color: #777;
+ }
+ .header-container .for-recome-top p{
+ 	font-size: 15px;
+ 	color: #777;
+ }
+ .header-container .for-recome-top:hover i{
+ 	color: #ff6700;
+ }
+ .header-container .for-recome-top:hover p{
+ 	color: #ff6700;
+ }
 .home{
 	height: 1270px;
 }
@@ -663,6 +715,39 @@
 .main-container-dv{
 	height:674px;
 	margin-bottom: 21px; 
+}
+/*for-change-diferent-style*/
+.main-container-dv .for-change-left-img div{
+	width: 234px;
+	height:300px;
+}
+.main-container-dv .for-change-left-img .this-is-the-top{
+	margin-bottom: 13px;
+}
+.main-container-dv .for-change-left-img div img{
+	width: 234px;
+	height: 300px;
+}
+.main-container-dv .because-it-is-deferent:hover{
+	box-shadow: none;
+	transform: translateY(0px);
+}
+.main-container-dv .because-it-is-deferent div{
+	width: 234px;
+	height: 143px;
+	transition: all 0.5s;
+}
+.main-container-dv .because-it-is-deferent .up-img{
+	margin-bottom: 14px;
+}
+.main-container-dv .because-it-is-deferent div img{
+	width: 234px;
+	height: 143px;
+	margin:0px;
+}
+.main-container-dv .because-it-is-deferent div:hover{
+	box-shadow: 10px 10px 30px black;
+	transform: translateY(-5px);
 }
 .main-container-video{
 	height:285px;
