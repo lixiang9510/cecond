@@ -1,0 +1,171 @@
+a{
+	text-decoration: none;
+}
+
+.clearfix:after{
+	display: :block;
+	content: "";
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+.clearfix{
+	*zoom:1;
+}
+
+/*上面公用样式*/
+
+/*footer部分*/
+.footer-serve{
+	width: 1224px;
+	height: 225px;
+	border-bottom: 1px solid #e6e6e6;
+	box-sizing: border-box;
+}
+.footer-serve .serve-link{
+	float: left;
+	margin: 50px 0;
+}
+.footer-serve .serve-link dl{
+	float: left;
+	margin-left: 90px;
+}
+.footer-serve .serve-link dl:first-child{
+	margin-left: 0px;
+}
+.footer-serve .serve-link dl dt{
+	margin-bottom: 27px;
+	font-weight: bold;
+	font-size: 12px;
+	color: #646464;
+}
+.footer-serve .serve-link dl dd{
+	margin-bottom: 15px;
+	font-size: 12px;
+}
+.footer-serve .serve-link dl dd a{
+	color: #969696; 
+}
+.footer-serve .serve-link dl dd a:hover{
+	color: #5079d9;
+}
+.footer-serve .serve-help{
+	float: right;
+	width: 180px;
+	margin: 50px 0;
+}
+.footer-serve .serve-help p:first-child{
+	float: right;
+	font-size: 20px;
+	font-weight: bold;
+	color: #5079d9;
+	margin-bottom: 16px;
+}
+.footer-serve .serve-help p:first-child i{
+	font-size: 23px;
+}
+.footer-serve .serve-help p:nth-child(2){
+	float: right;
+	color: #999;
+	font-size: 12px;
+}
+.footer-serve .serve-help p:nth-child(2) span{
+	font-size: 11px;
+}
+.footer-serve .serve-help p:nth-child(3){
+	float: right;
+	color: #999;
+	font-size: 12px;
+	margin-bottom: 16px;
+}
+.footer-serve .serve-help a{
+	float: right;
+	width: 130px;
+	height: 30px;
+	border: 1px solid #d0d0d0;
+	border-radius: 5px;	
+	text-align: center;
+	line-height: 30px;
+	font-size: 11px;
+	color: #5079d9;
+	font-weight: bold;
+}
+.footer-serve .serve-help a i{
+	font-size: 11px;
+	margin-right: 4px;
+	color: #5079d9;
+}
+/*end部分*/
+.end-por{
+	width: 1224px;
+	height: 130px;
+	padding: 30px 0 23px 0;
+	box-sizing: border-box;
+
+}
+.end-por .por-link{
+	float: left;
+	width: 790px;
+}
+.end-por .por-link .link-stt{
+	float: left;
+}
+.end-por .por-link .link-stt li{
+	float: left;
+	margin-right: 18px;
+}
+.end-por .por-link p{
+	float: left;
+	margin-right: 20px;
+	color: #bdbdbd;
+	font-size: 11px;
+}
+.end-por .por-link .link-stt li a{
+	display: block;
+	font-size: 11px;
+	color: #bdbdbd;
+	border-left: 1px solid #bdbdbd;
+	padding-left: 10px;
+}
+.end-por .por-link .link-stt li a:hover{
+	color: #5079d9;
+}
+.end-por .por-link .link-police{
+	float: left;
+	margin-top: 12px;
+}
+.end-por .por-link .link-police li{
+	float: left;
+	margin-left: 15px;
+}
+.end-por .por-link .link-police li:first-child{
+	margin-left: 0px;
+}
+.end-por .por-link .link-police li a{
+	font-size: 11px;
+	color: #bdbdbd;
+}
+.end-por .por-CN{
+	float: right;
+	position: relative;
+	width: 80px;
+	height: 20px;
+	box-sizing: border-box;
+}
+.end-por .por-CN a span{
+	line-height: 20px;
+	font-size: 11px;
+	vertical-align: top;
+	color: #333;
+}
+.end-por .por-CN a i:first-child{
+	color: red;
+	margin-right: 10px;
+}
+.end-por .por-CN a i:last-child{
+	float: right;
+	margin-top: 3px;
+	color: #bdbdbd;
+	font-size: 10px;
+}
+

@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.general-images{
+	position: relative;
+	width: 245px;
+	height: 362px;
+	border:1px solid #efefef;
+	box-sizing: border-box;
+}
+.general-images .for-add-bcgimg{
+	position: absolute;
+	top: 30px;
+	left: 20px;
+	width: 200px;
+	height: 180px;
+	background-color: red;
+}
+.general-images .for-add-bcgimg1{
+	background-position: 
+}
+.for-add-skin{
+	position: absolute;
+	top: 230px;
+	left: 0px;
+	width: 100%;
+	height: 20px;
+	background-color: blue;
+}

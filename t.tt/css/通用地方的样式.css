@@ -1,0 +1,128 @@
+/*头部标题加右侧导航
+.general-top-explain{
+	width: 1220px;
+	height: 60px;
+	border:1px solid #ccc;
+}
+.general-top-explain .general-top-explain-left{
+	float: left;
+	height: 60px;
+	width: 200px;
+	background-color: yellow;
+	padding-left: 20px;
+	color: #777;
+}*/
+/*上面的标题加符号---大于小于
+.general-top-explain .general-top-explain-right{
+	float: right;
+	height: 60px;
+	width: 200px;
+	position: relative;
+}
+.general-top-explain .general-top-explain-right .sign{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 15px;
+	float: right;
+	color:#777;
+	border:1px solid #ccc;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 50%;
+}
+.general-top-explain .general-top-explain-right .less{
+	right: 60px;
+}
+.general-top-explain .general-top-explain-right .more{
+	right: 10px;
+}*/
+
+/*右侧是两行文字的时候使用
+.general-top-explain .general-top-explain-right{
+	float: right;
+	height: 60px;
+	width: 300px;
+	position: relative;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+.general-top-explain .general-top-explain-right .for-set-position{
+	width: 70px;
+	height: 30px;
+	position: absolute;
+	top: 15px;
+	text-align: center;
+}
+.general-top-explain .general-top-explain-right .i-is-left{
+	right: 130px;
+	z-index: 2;
+}
+.general-top-explain .general-top-explain-right .i-is-middle{
+	right: 70px;
+}
+.general-top-explain .general-top-explain-right .i-is-right{
+	right: 10px;
+	z-index: 2;
+}
+.general-top-explain .general-top-explain-right .i-is-left：hover{
+	font-weight: bold;
+}*/
+
+/*右侧是两块文字加点时用
+.general-top-explain .general-top-explain-right{
+	float: right;
+	height: 60px;
+	width: 300px;
+	position: relative;
+	background-color: red;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+.general-top-explain .general-top-explain-right .for-add-border-and-word{
+	display: block;
+	font-weight: bold;
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	position: absolute;
+	top: 15px;
+	right: 10px;
+	border:1px solid #ccc;
+	text-align: center;
+	font-size: 15px;
+	border-radius: 5px;
+}
+.general-top-explain .general-top-explain-right .for-add-border-and-word i{
+	font-size: 8px;
+}*/
+.general-image-every{
+	width: 305px;
+	height: 430px;
+	border:1px solid #e1e1e1;
+}
+ .general-image-every .background-image{
+ 	width: 305px;
+ 	height: 244px;
+ 	background-image: url(../img/lx-1.png);
+ 	background-position: -792px -1902px;
+ 	background-repeat: no-repeat;
+ }
+.general-image-every .image-explain{
+	
+	margin:0px auto;
+	background-color: red;
+
+ }
+.general-image-every .ad-slogan{
+
+ }
+.general-image-every .goods-price{
+
+ }
+.general-image-every .goods-price .money-symbol{
+
+ }
+.general-image-every .goods-price .number{
+
+ }
