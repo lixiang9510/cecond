@@ -1,0 +1,211 @@
+a{
+	color:#777;
+}
+/*top*/
+.top{
+	height: 50px;
+	background: #2b2c2e;
+	position: relative;
+}
+.top .logo{
+	float: left;
+	height: 50px;
+	position: absolute;
+	top: 15px;
+	left: 20px;
+}
+.top img{
+	width: 20px;
+	height: 20px;
+}
+.top .ul1{
+	float: left;
+	position: absolute;
+	top: 15px;
+	left: 340px;
+}
+.top .ul1 li{
+	float: left;
+	margin-right: 50px;
+}
+.top .ul1 li a{
+	font-size: 13px;
+	color:#bfbfc0;
+}
+.top .ul1 li:nth-child(1) a{
+	font-weight: 600;
+	color: #e5e5d4;
+}
+.top .ul1 li:hover a{
+	color: #fff;
+}
+.top .shopcart{
+	float: right;
+	position: absolute;
+	top: 15px;
+	right: 30px;
+}
+.top .shopcart .cart-box{
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	background: #fff;
+	position: absolute;
+	top: 35px;
+	right: 0px;
+	display: none;
+}
+.top .shopcart .cart-box img{
+	width: 80px;
+	height: 80px;
+	margin-top: 70px;
+}
+.top .shopcart .cart-box p:nth-of-type(1){
+	font-size: 18px;
+	color: #333;
+	margin-top: 30px;
+}
+.top .shopcart .cart-box p:nth-of-type(2){
+	font-size: 12px;
+	color: #b0b0b0;
+	margin-top: 10px;
+}
+.top .shopcart:hover .cart-box{
+	display: block;
+}
+.top .users{
+	float: right;
+	position: absolute;
+	top: 15px;
+	right: 80px;
+}
+/*header*/
+.header{
+	height: 95px;
+	background: #fff;
+}
+.header .ul2{
+	float: left;
+	height: 95px;
+	line-height: 95px;
+}
+.header .ul2 li{
+	float: left;
+	/*height: 25px;*/
+	margin-right: 40px;
+	/*margin-top: 35px;*/
+}
+.header .ul2 li a{
+	height: 25px;
+	font-size: 16px;
+	color: #4f4f4f;
+}
+.header .ul2 li:nth-child(1),
+.header .ul2 li:nth-child(2){
+	color: #333;
+	font-weight: bolder;
+}
+.header .ul2 li:hover a{
+	color: #3965d5;
+}
+.header .inputer{
+	float: right;
+	width: 412px;
+	height: 45px;
+	margin-right: 25px;
+	margin-top: 25px;
+	position: relative;
+}
+.header .inputer input{
+	outline: none;
+	width: 412px;
+	height: 45px;
+	border: 1px solid #ececec;
+	border-radius: 25px;
+	padding-left: 50px;
+	box-sizing: border-box;
+}
+.header .inputer i{
+	color: #b2b2b2;
+	font-size:25px;
+	position: absolute;
+	top: 10px;
+	left: 15px;
+}
+.header .inputer p a{
+	display: block;
+	height: 25px;
+	background: #e5efff;
+	color: #3965d5;
+	font-size: 14px;
+	font-weight: bold;
+	border: 1px solid #c9d9fb;
+	border-radius: 25px;
+	padding:0 10px 0 10px;
+	box-sizing: border-box; 
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -13px;
+}
+.header .inputer .input-list .ul3{
+	width: 412px;
+	height: 475px;
+	padding: 20px 0 0px 25px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	background: #fff;
+	position: absolute;
+	top: 72px;
+	left: 0;
+}
+.inputer .input-list .ul3 li{
+	height: 43px;
+	line-height: 43px;
+}
+.inputer .input-list .ul3 li a{
+	color: #5a5a5a;
+	font-size: 19px;
+	font-weight: 500;
+}
+.inputer .input-list .ul3 li:hover a{
+	color: #3965d5;
+	font-weight: bold;
+}
+.header .inputer .input-list .triangle{
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	border: 1px solid #d5d5d5;
+	transform: rotate(45deg);
+	/*z-index: 555;*/
+	position: absolute;
+	top: 60px;
+	left: 50px;
+}
+.header .inputer .input-list{
+	display: none;
+}
+.header .inputer input:focus ~ .input-list{
+	display: block;
+}
+.header .inputer input:focus ~ p a{
+	display: none;
+}
+/*main*/
+.main{
+	height: 732px;
+	background: #d5d5d5;
+}
+/*footer*/
+.footer{
+	height: 280px;
+	/*background: purple;*/
+}
+/*end*/
+.end{
+	height: 160px;
+	/*background: yellow;*/
+}

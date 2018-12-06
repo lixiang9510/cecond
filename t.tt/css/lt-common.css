@@ -1,0 +1,22 @@
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+li{
+	list-style: none;
+}
+.container{
+	width: 1525px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	height: 0;
+	clear: bottom;
+	visibility: hidden;
+}
+.clearfix{
+	*zoom:1;
+}

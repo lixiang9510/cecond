@@ -79,6 +79,7 @@ body{
 	border: 2px solid #f2f2f2;
 	outline: none;
 	padding-left: 40px;
+	font-size: 12px;
 	box-sizing: border-box;
 
 }
@@ -101,7 +102,7 @@ body{
 	border: 1px solid #93b2f7;
 	background-color: #e5efff;
 	color: #3965cc;
-	font-size: 12px;
+	font-size: 12px; 
 	border-radius:10px; 
 	text-align: center;
 	line-height: 20px;
@@ -630,112 +631,112 @@ body{
  	background-repeat: no-repeat;
  }
  .general-image-every .background-image-1-1{
- 	background-position: -792px -1474px;
+ 	background-position: -792px -1476px;
  }
  .general-image-every .background-image-1-2{
- 	background-position: -1098px -1474px;
+ 	background-position: -1098px -1476px;
  }
   .general-image-every .background-image-1-3{
- 	background-position: -182px -1902px;
+ 	background-position: -182px -1904px;
  }
   .general-image-every .background-image-1-4{
- 	background-position: -488px -1902px;
+ 	background-position: -488px -1904px;
  }
   .general-image-every .background-image-1-5{
- 	background-position: -792px -1902px;
+ 	background-position: -792px -1904px;
  }
   .general-image-every .background-image-1-6{
- 	background-position: -1098px -1902px;
+ 	background-position: -1098px -1904px;
  }
  .general-image-every .background-image-2-1{
- 	background-position: -792px -2420px;
+ 	background-position: -792px -2422px;
  }
  .general-image-every .background-image-2-2{
- 	background-position: -1098px -2420px;
+ 	background-position: -1098px -2422px;
  }
   .general-image-every .background-image-2-3{
- 	background-position: -182px -2850px;
+ 	background-position: -182px -2852px;
  }
   .general-image-every .background-image-2-4{
- 	background-position: -488px -2850px;
+ 	background-position: -488px -2852px;
  }
   .general-image-every .background-image-2-5{
- 	background-position: -792px -2850px;
+ 	background-position: -792px -2852px;
  }
   .general-image-every .background-image-2-6{
- 	background-position: -1098px -2850px;
+ 	background-position: -1098px -2852px;
  }
  .general-image-every .background-image-3-1{
- 	background-position: -792px -3365px;
+ 	background-position: -792px -3367px;
  }
  .general-image-every .background-image-3-2{
- 	background-position: -1098px -3365px;
+ 	background-position: -1098px -3367px;
  }
   .general-image-every .background-image-3-3{
- 	background-position: -182px -3795px;
+ 	background-position: -182px -3797px;
  }
   .general-image-every .background-image-3-4{
- 	background-position: -488px -3795px;
+ 	background-position: -488px -3797px;
  }
   .general-image-every .background-image-3-5{
- 	background-position: -792px -3795px;
+ 	background-position: -792px -3797px;
  }
   .general-image-every .background-image-3-6{
- 	background-position: -1098px -3795px;
+ 	background-position: -1098px -3797px;
  }
  .general-image-every .background-image-4-1{
- 	background-position: -792px -4310px;
+ 	background-position: -792px -4312px;
  }
  .general-image-every .background-image-4-2{
- 	background-position: -1098px -4310px;
+ 	background-position: -1098px -4312px;
  }
   .general-image-every .background-image-4-3{
- 	background-position: -182px -4740px;
+ 	background-position: -182px -4742px;
  }
   .general-image-every .background-image-4-4{
- 	background-position: -488px -4740px;
+ 	background-position: -488px -4742px;
  }
   .general-image-every .background-image-4-5{
- 	background-position: -792px -4740px;
+ 	background-position: -792px -4742px;
  }
   .general-image-every .background-image-4-6{
- 	background-position: -1098px -4740px;
+ 	background-position: -1098px -4742px;
  }
  .general-image-every .background-image-5-1{
- 	background-position: -792px -5254px;
+ 	background-position: -792px -5256px;
  }
  .general-image-every .background-image-5-2{
- 	background-position: -1098px -5254px;
+ 	background-position: -1098px -5256px;
  }
   .general-image-every .background-image-5-3{
- 	background-position: -182px -5684px;
+ 	background-position: -182px -5686px;
  }
   .general-image-every .background-image-5-4{
- 	background-position: -488px -5684px;
+ 	background-position: -488px -5686px;
  }
   .general-image-every .background-image-5-5{
- 	background-position: -792px -5684px;
+ 	background-position: -792px -5686px;
  }
   .general-image-every .background-image-5-6{
- 	background-position: -1098px -5684px;
+ 	background-position: -1098px -5686px;
  }
  .general-image-every .background-image-6-1{
- 	background-position: -792px -6199px;
+ 	background-position: -792px -6201px;
  }
  .general-image-every .background-image-6-2{
- 	background-position: -1098px -6199px;
+ 	background-position: -1098px -6201px;
  }
   .general-image-every .background-image-6-3{
- 	background-position: -182px -6629px;
+ 	background-position: -182px -6631px;
  }
   .general-image-every .background-image-6-4{
- 	background-position: -488px -6629px;
+ 	background-position: -488px -6631px;
  }
   .general-image-every .background-image-6-5{
- 	background-position: -792px -6629px;
+ 	background-position: -792px -6631px;
  }
   .general-image-every .background-image-6-6{
- 	background-position: -1098px -6629px;
+ 	background-position: -1098px -6631px;
  }
 
 .general-image-every .image-explain{
@@ -987,22 +988,22 @@ body{
 	background-repeat: no-repeat;
 }
 .general-big-border .i-anbigul .i-amTwoBigLi .for-add-background-1{	
- 	background-position: -182px -1475px;
+ 	background-position: -180px -1475px;
  }
  .general-big-border .i-anbigul .i-amTwoBigLi .for-add-background-2{	
- 	background-position: -182px -2420px;
+ 	background-position: -180px -2420px;
  }
  .general-big-border .i-anbigul .i-amTwoBigLi .for-add-background-3{	
- 	background-position: -182px -3365px;
+ 	background-position: -180px -3365px;
  }
  .general-big-border .i-anbigul .i-amTwoBigLi .for-add-background-4{	
- 	background-position: -182px -4310px;
+ 	background-position: -180px -4310px;
  }
  .general-big-border .i-anbigul .i-amTwoBigLi .for-add-background-5{	
- 	background-position: -182px -5254px;
+ 	background-position: -180px -5254px;
  }
  .general-big-border .i-anbigul .i-amTwoBigLi .for-add-background-6{	
- 	background-position: -182px -6199px;
+ 	background-position: -180px -6199px;
  }
 
 .general-image-every-for-add-bgc{

@@ -1,0 +1,222 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.common{
+	/*position: relative;*/
+	width: 1220px;
+	margin: 0 auto;
+}
+
+
+/* 上面为通用样式 */
+header{
+	width: 100%;
+	height: 45px;
+	background-color: #0e0e0e;
+}
+header .logo{
+	float: left;
+	width: 19px;
+	height: 19px;
+	margin: 13px 0 0 23px;
+}
+header .logo a{
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+}
+header .logo a img{
+	width: 19px;
+	height: 19px;
+}
+header .link{
+	width: 1220px;
+	margin-left: 380px;
+
+}
+header .link li{
+	float: left;
+	height: 45px;	
+	text-align: center;
+	margin-left: 30px;
+	line-height: 45px;
+}
+header .link li:first-child{
+	margin-left: 0px;	
+}
+header .link li:first-child a{
+	font-weight: bold;
+	color: #e5e5e5;
+}
+header .link li a{
+	font-size: 12px;
+	color: #bfbfc0;
+}
+header .link li a:hover{
+	color: #e5e5e5;
+}
+header .sc{
+	float: right;
+}
+header .sc a i{
+	margin-right: 15px;
+	line-height: 45px;
+	font-size: 16px;
+	color: #bfbfc0;
+}
+header .sc a:nth-child(2) i{
+	margin-right: 20px;
+}
+/* 下面导航 */
+nav{
+	width: 100%;
+	height: 74px;
+	background-color: #fff;
+	box-shadow: 0 5px 10px rgba(0,0,0,1); 
+}
+nav .nav-link{
+	float: left;
+}
+nav .nav-link li{
+	float: left;
+	line-height: 74px;
+	margin-left: 30px;
+	font-size: 13px;
+}
+nav .nav-link li a{
+	color: #333;
+}
+nav .nav-link li:first-child a{
+	font-weight: bold;
+}
+nav .nav-link li a:hover{
+	color: #5079d9;
+}
+nav .nav-search{
+	float: right;
+	width: 466px;
+	height: 74px;
+}
+nav .nav-search .nav-search-box{
+	position: relative;	
+	float: right;
+	margin-top: 19px;
+	width: 330px;
+	height: 36px;
+	border: 1px solid #ebebeb;
+	border-radius: 20px;
+}
+nav .nav-search .nav-search-box i{
+	position: absolute;
+	top:10%;
+	left: 8px;
+	font-size: 25px;
+	font-weight: bold;
+	cursor: pointer;
+	color: #989898;
+}
+nav .nav-search .nav-search-box input{
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	margin-top: -10px;
+	width: 270px;
+	height: 20px;
+	border: none;
+	outline: none;
+}
+nav .nav-search .nav-search-box a{
+	position: absolute;
+	top: 20%;
+	right: 15px;
+	width: 200px;
+	height: 20px;
+	text-align: center;
+	background: #e5efff;
+	border: 1px solid #93b2f7;
+	border-radius: 10px;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #3977d9;
+	z-index: 1;
+}
+nav .nav-search .nav-search-box input:focus ~ a{
+	display: none;
+}
+/*下面内容*/
+section{
+	height: 4608px;
+	box-sizing: border-box;
+	background-color: #ededed;
+}
+section .sort{
+	width: 100%;
+	height: 61px;
+}
+section .sort p,
+section .sort i{
+	float: left;
+	font-size: 11px;
+	margin-left: 20px;
+}
+section .sort p{
+	line-height: 61px;
+	cursor: pointer;
+	color: #999;
+}
+section .sort p:first-child{
+	color: #5683ea;
+}
+section .sort i{
+	color: #c7c7c7;
+	margin-top: 20px;
+}
+section .sort p:hover{
+	color: #5683ea;
+}
+/*上面排序*/
+/*下面商品*/
+section .commodity{
+	width: 100%;
+	height: 4354px;
+	border: 1px solid #bdbdbd;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	border-radius: 6px;
+	background: #fff;
+}
+section .commodity ul li{
+	float: left;
+	width: 20%;
+	height: 384px;
+	border: 1px solid #efefef;
+	box-sizing: border-box;
+}
+section .commodity ul li:first-child{
+	border-radius: 6px 0 0 0; 
+}
+section .commodity ul li:nth-child(5){
+	border-radius: 0 6px 0 0;
+}
+/*下面客服*/
+section .service{
+	width: 100%;
+	height: 155px;
+	border: 1px solid #bdbdbd;
+	border-radius: 6px;
+	background: #fff;
+}
+/*最后一块*/
+
+footer{
+	height: 355px;
+	background-color: #fafafa;
+}
