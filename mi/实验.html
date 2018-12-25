@@ -3,8 +3,182 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<style></style>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.nav-containt{
+			position: relative;
+			width: 1483px;
+			height: 230px;
+		}
+		.nav-bottom-containt{
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 1483px;
+			height: 230px;
+			background-color: #fff;
+			z-index: 888;
+			padding-left: 170px;
+			box-sizing: border-box;
+			box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
+			border:1px solid #ccc;
+		}
+		.nav-bottom-containt li{
+			float: left;
+			position: relative;
+			list-style: none;
+			width: 160px;
+			height: 230px;
+		}
+		.nav-bottom-containt li img{
+				width: 160px;
+				height: 110px;
+				margin-top: 30px;
+				border-right:1px solid #aaa;
+		}
+		.nav-bottom-containt li .phoneName{
+			margin:10px 50px 0px;
+			font-size: 12px;
+			color: #777;
+		}
+		.nav-bottom-containt li .phonePrice{
+			margin:10px 50px 0px;
+			font-size: 12px;
+			color: #ff6700;
+		}
+		.nav-bottom-containt li .newGoods{
+			position: absolute;
+			top: -1px;
+			left: 50%;
+			width: 66px;
+			height: 20px;
+			margin-left: -33px;
+			border:1px solid #ff6700;
+			font-size: 12px;
+			color: #ff6700;
+			font-weight: bolder;
+			text-align: center;
+			line-height: 20px;
+		}
+		.bottom{
+			list-style: none;
+			height: 20px;
+		}
+		.bottom li{
+			float: left;
+			width: 50px;
+			height: 20px;
+			text-align: center;;
+			line-height: 20px;
+			border:1px solid black;
+			margin-right: 10px;
+			margin-bottom: 10px;
+			cursor: pointer;
+			user-select: none;
+		}
+	</style>
 </head>
-<body></body>
-<script></script>
+<body>
+
+	<ul class="bottom">
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+	</ul>
+	<div class="nav-containt">
+<!-- 	<ul class="nav-bottom-containt">
+		<li>
+			<a href="#">
+				<img src="https://i1.mifile.cn/f/i/g/2015/cn-index/mix3-320.png" alt="">
+			</a>
+			<div class="phoneName">小米MIX 3</div>
+			<div class="phonePrice">3299元起</div>
+			<div class="newGoods">新品</div>
+		</li>
+		<li>
+			<a href="#">
+				<img src="https://i1.mifile.cn/f/i/g/2015/cn-index/mix3-320.png" alt="">
+			</a>
+			
+			<div class="phoneName">小米MIX 3</div>
+			<div class="phonePrice">3299元起</div>
+			<div class="newGoods">新品</div>
+		</li>
+		<li>
+			<a href="#">
+				<img src="https://i1.mifile.cn/f/i/g/2015/cn-index/mix3-320.png" alt="">
+			</a>
+			<div class="phoneName">小米MIX 3</div>
+			<div class="phonePrice">3299元起</div>
+			<div class="newGoods">新品</div>
+		</li>		
+	</ul> -->
+	</div>
+</body>
+<script>
+	var objArray=[
+		[
+			{
+				url:"https://i1.mifile.cn/f/i/g/2015/cn-index/mix3-320.png",
+				name1:'小米MIX 3',
+				price:'3299元起',
+				newGood:'新品'
+			},
+			{
+				url:"https://i1.mifile.cn/f/i/g/2015/cn-index/666320.png",
+				name1:'小米MIX 3',
+				price:'3299元起',
+				newGood:'新品'
+			}
+		],
+		[
+			{
+				url:"https://i1.mifile.cn/f/i/g/2015/cn-index/666320.png",
+				name1:'小米MIX 3',
+				price:'3299元起',
+				newGood:'新品'
+			},
+			{
+				url:"https://i1.mifile.cn/f/i/g/2015/cn-index/666320.png",
+				name1:'小米MIX 3',
+				price:'3299元起',
+				newGood:'新品'
+			}
+		]
+	];
+	var aBottom = document.querySelectorAll('.bottom li');
+	var oDiv = document.querySelector('.nav-containt');
+	console.log(aBottom);
+	for(i=0;i<aBottom.length-3;i++){
+		aBottom[i].index=i;
+		aBottom[i].onmouseenter=function(){
+			loadDate(this.index);
+		}
+	}
+	function loadDate(index){
+		var date=objArray[index];
+		console.log(date.length);
+		var html='<ul class="nav-bottom-containt">';
+		for(i=0;i<date.length;i++){
+			html+=	'<li>';
+			html+=		'<a href="#">';
+			html+=			'<img src='+date[i].url+' alt="">';
+			html+=		'</a>';
+			html+=		'<div class="phoneName">'+date[i].name1+'</div>';
+			html+=		'<div class="phonePrice">'+date[i].price+'</div>';
+			html+=		'<div class="newGoods">'+date[i].newGood+'</div>';
+			html+=	'</li>';					
+		}
+		html+='</ul>';	
+		oDiv.innerHTML=html;
+
+	}
+
+	
+</script>
 </html>

@@ -191,15 +191,15 @@
 	width: 1226px;
 	height: 40px;
 }
-.top-container .header-container-nav{
+.top-container .top-container-nav{
 	list-style: none;
 }
-.top-container .header-container-nav li{
+.top-container .top-container-nav li{
 	float: left;
 	height: 40px;
 	line-height: 40px;
 }
-.top-container .header-container-nav li span{
+.top-container .top-container-nav li span{
 	color: #413b36;
 	margin:0px 7px;
 }
@@ -219,13 +219,19 @@
 	width: 320px;
 	background-color: #fff;
 	z-index: 100;
-	line-height: 100px;
-	text-align: center;
 	color: #777;
 	font-size: 12px;
 	height: 0px;
 	box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
 	overflow: hidden;
+}
+.top-container .top-container-shopping .shopping-container .prompt{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -6px;
+	margin-left: -100px;
+	display: none;
 }
 .top-container .top-container-shopping .shopping-container .addLine{
 	position: relative;
@@ -235,6 +241,7 @@
 	background-color: #ff6700;
 	margin: 10px auto;
 	animation: first 0.5s linear 0.5s infinite normal;
+	display: none;
 }
 .top-container .top-container-shopping .shopping-container .addLine:before, .addLine:after{
 	position: absolute;
@@ -294,6 +301,7 @@
 }
 .header-container{
 	position: relative;
+	width: 1226px;
 }
 .header-container .header-container-logo{
 	height: 100px;
@@ -318,11 +326,18 @@
 	width: 30px;
 	height: 39px;
 }
+.header-container-nav {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1226px;
+	height: 100px;
+}
 .header-container-nav .header-container-nav-con{
-	height: 50px;
 	position: absolute;
 	left: 245px;
 	top: 25px;
+	height: 50px;
 	line-height: 50px;
 }
 .header-container-nav .header-container-nav-con li{
@@ -335,6 +350,18 @@
 }
 .header-container-nav .header-container-nav-con li a:hover{
 	color: red;
+}
+.header-container-nav .nav-bottom-containt{
+	position: absolute;
+	top:75px;
+	left:-170px;
+	width: 1483px;
+	height: 230px;
+	background-color: #fff;
+	z-index: 888;
+	padding-left: 170px;
+	box-sizing: border-box;
+	box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
 }
 .for-reset-border{
 	width: 300px;
