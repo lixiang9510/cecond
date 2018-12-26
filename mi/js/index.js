@@ -63,11 +63,9 @@ function handleCard(){
 function handleNav(){
 	var timer=0;
 	var aNavPrompt = document.querySelectorAll('.header-container-nav .header-container-nav-con li');
-	console.log(aNavPrompt)
 	var oCotaintNav = document.querySelector('.header-container-nav .nav-containt');
 	for(i=0;i<aNavPrompt.length-2;i++){
 		aNavPrompt[i].index=i;
-		console.log(i);
 		aNavPrompt[i].onmouseenter=function(){
 			clearTimeout(timer);
 			loadDate(this.index);
@@ -119,5 +117,27 @@ function handleNav(){
 
 //处理选项卡
 function handleTab(){
-	console.log(TabDate[0].length);
+	var oHomeTab=document.getElementById('homeTab');
+	var aHomeNavLi=document.querySelectorAll('.home-container-nav .home-nav li');
+	
+	for(k=0;k<aHomeNavLi.length;k++){
+		aHomeNavLi[k].index=k;
+		aHomeNavLi[k].onmouseenter=function(){
+			handleTabFn(this.index);
+		}
+	}
+	function handleTabFn(index){
+		aHomeNavLi[index].style.backgroundColor="#ff6700";
+	}
+	for(i=0;i<(Math.ceil(TabDate[0].length/6));i++){
+		var oLi=document.createElement('li');
+		for(j=0;j<6;j++){
+			if(TabDate[0][6*i+j]){
+				var oDiv=document.createElement('div');
+				oDiv.innerHTML='<img src="'+TabDate[0][6*i+j].url+'" alt=""><span>'+TabDate[0][6*i+j].name1+'</span>';
+				oLi.appendChild(oDiv);
+			}
+		}
+		oHomeTab.appendChild(oLi);
+	}
 }

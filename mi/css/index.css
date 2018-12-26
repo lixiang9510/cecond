@@ -607,9 +607,6 @@
 .home-container-nav .home-nav li a i{
 	float: right;
 }
-.home-container-nav .home-nav li:hover{
-	background-color: #ff6700;
-}
 .home-container-nav #homeTab{
 	position: absolute;
 	top: 0px;
