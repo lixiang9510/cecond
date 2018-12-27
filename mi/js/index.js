@@ -14,6 +14,12 @@ handleChart();
 //添加倒计时
 addCountDown();
 
+//左右选项卡
+handleRightLeft();
+
+////处理四个选项选项卡
+handleFourCard();
+
 //处理购物车：
 function handleCard(){
 	var oShopping=document.querySelector('.top-container .top-container-shopping');
@@ -132,7 +138,6 @@ function handleTab(){
 			clearTimeout(homeTimer);
 			oHomeTab.style.display='block';
 			handleTabFn(this.index);
-			console.log(this.index);
 		}
 	}
 	for(var k=0;k<aHomeNavLi.length;k++){
@@ -187,12 +192,9 @@ function handleTab(){
 function handleChart(){
 	function Carousel(opation){
 		this.oBox=document.getElementById(opation.id);
-		console.log(opation);
 		this.aImg=opation.aImg;
-		
 		this.width=opation.width;
 		this.height=opation.height;
-		console.log(this.width);
 		this.oUl=null;
 		this.oLi=null;
 		this.oImg=null;
@@ -210,7 +212,6 @@ function handleChart(){
 		this.oUl=document.createElement('ul');
 		for(i=0;i<this.aImg.length;i++){
 			this.aImg[i].index=i;
-			console.log(i);
 			this.oLi=document.createElement('li');
 			this.oImg=document.createElement('img');
 			this.oImg.src=this.aImg[i];
@@ -233,7 +234,6 @@ function handleChart(){
 		this.oBox.style.height=this.height+'px';
 		this.oUl.style.listStyle='none';
 		this.aLi=this.oUl.children;
-		console.log(this.aLi)
 	}
 	//for add left and right button;
 	Carousel.prototype.leftRight=function(){
@@ -246,7 +246,6 @@ function handleChart(){
 		this.toRight.innerHTML='&gt;'
 		this.oBox.appendChild(this.toLeft);
 		this.oBox.appendChild(this.toRight);
-		console.log(this.toRight);
 		this.toRight.onclick=function(){
 			_this.now++;
 			if(_this.now==_this.aLi.length){
@@ -339,5 +338,50 @@ function handleChart(){
 
 //添加倒计时
 function addCountDown(){
+	var oOwn = document.querySelector('.home-container-flash .home-flash-point .home-flash-point-left .one');
+	var aFour=document.querySelectorAll('.home-container-flash .home-flash-point .home-flash-point-left .four li');
+	var setTime=new Date('2018/12/28 9:30:00');
+	var timer = 0;
+	function number1(num){
+		return num<10 ? num='0'+num : num=''+num;
+	}
+	function conment1(){
+		var allTime=setTime.getTime()-Date.now();
+		var allSecond=parseInt(allTime/1000);
+		if(allTime<=0){
+			clearInterval(timer);
+			allSecond=0;
+		}
+		var oHours=parseInt(allSecond/3600);
+		var oMinutes=parseInt((allSecond%3600)/60);
+		var oSeconds=(allSecond%3600)%60;
+		var oTimernumber=number1(oHours)+number1(oMinutes)+number1(oSeconds);
+		// oOwn.innerHTML=number1(oHours)':'number1(oMinutes)':'number1(oSeconds)+'场';
+		aFour[0].innerHTML=number1(oHours);
+		aFour[2].innerHTML=number1(oMinutes);
+		aFour[4].innerHTML=number1(oSeconds);
+	}
+	timer=setInterval(conment1,50);
+}
+
+//处理左右选项卡
+function handleRightLeft(){
+	var oLessThan=document.querySelector('.general-right-top-no1 a .less-than');
+	var oMoreThan=document.querySelector('.general-right-top-no1 a .more-than');
+	var oUl=document.querySelector('.general-image-point-right-flash1 ul');
+	oLessThan.onclick=function(){
+		oUl.style.left='0px';
+	}
+	oMoreThan.onclick=function(){
+		oUl.style.left='-976px';
+	}
+	console.log(oMoreThan)
+}
+
+//处理四个选项选项卡
+function handleFourCard(){
+	var oFourLiUl=document.querySelector('.forAddFourCard');
+	var aFourLiUlLi=oFourLiUl.children;
 	
+	console.log(aFourLiUlLi);
 }

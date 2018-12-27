@@ -69,6 +69,19 @@
 .general-image-point-right{
 	overflow: hidden;
 }
+.general-image-point-right-flash1{
+	position: relative;
+	height: 340px;
+	width: 976px;
+	overflow: hidden;
+}
+.general-image-point-right-flash1 ul{
+	position: absolute;
+	top:0px;
+	left: 0px;
+	width: 1950px;
+	height: 340px;
+}
 .general-image-point-right li{
 	width: 234px;
 	float: right;
@@ -874,6 +887,14 @@
 	width: 234px;
 	height: 143px;
 	transition: all 0.5s;
+}
+.forAddFourCard{
+	background-color: red;
+}
+.forAddFourCard li{
+	float: left;
+	margin-right: 20px;
+	cursor: pointer;
 }
 .main-container-dv .because-it-is-deferent .up-img{
 	margin-bottom: 14px;
