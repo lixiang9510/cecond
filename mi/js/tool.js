@@ -55,3 +55,4 @@ function animate(obj,options,decelerate,fnEnd){
 		
 	},30)
 }
+
