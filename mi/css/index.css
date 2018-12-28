@@ -888,16 +888,30 @@
 	height: 143px;
 	transition: all 0.5s;
 }
-.forAddFourCard{
-	background-color: red;
-}
+
+
 .forAddFourCard li{
 	float: left;
+	height: 30px;
 	margin-right: 20px;
+	text-align: center;
+	font-weight: bold;
 	cursor: pointer;
 }
+.forAddFourCard .forAddFourCard-active{
+	color: #ff6700;
+	border-bottom: 2px solid #ff6700;
+}
+
+
+
 .main-container-dv .because-it-is-deferent .up-img{
 	margin-bottom: 14px;
+}
+.main-container-dv .because-it-is-deferent div a{
+	display: block;
+	width: 234px;
+	height: 143px;
 }
 .main-container-dv .because-it-is-deferent div img{
 	width: 234px;

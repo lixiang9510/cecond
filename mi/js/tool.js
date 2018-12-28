@@ -6,7 +6,7 @@ function animate(obj,options,decelerate,fnEnd){
 		for(var attr in options){
 			var isStopOne=true;
 			if(!decelerate){
-				ispeed=20;
+				ispeed=50;
 			}
 			var current=parseFloat(getComputedStyle(obj,false)[attr]);
 			if(attr=='opacity'){

@@ -370,10 +370,12 @@ function handleRightLeft(){
 	var oMoreThan=document.querySelector('.general-right-top-no1 a .more-than');
 	var oUl=document.querySelector('.general-image-point-right-flash1 ul');
 	oLessThan.onclick=function(){
-		oUl.style.left='0px';
+		// oUl.style.left='0px';
+		animate(oUl,{left:0},0);
 	}
 	oMoreThan.onclick=function(){
-		oUl.style.left='-976px';
+		// oUl.style.left='-976px';
+		animate(oUl,{left:-976},0);
 	}
 	console.log(oMoreThan)
 }
@@ -381,7 +383,54 @@ function handleRightLeft(){
 //处理四个选项选项卡
 function handleFourCard(){
 	var oFourLiUl=document.querySelector('.forAddFourCard');
+	var oDivHEA=document.querySelector('.household-electrical-appliances');
 	var aFourLiUlLi=oFourLiUl.children;
-	
-	console.log(aFourLiUlLi);
+	changeDate(0);
+	for(var i=0;i<aFourLiUlLi.length;i++){
+		aFourLiUlLi[i].index=i;
+		aFourLiUlLi[i].onmouseenter=function(){
+			for(var j=0;j<aFourLiUlLi.length;j++){
+				aFourLiUlLi[j].className='';
+			}
+			aFourLiUlLi[this.index].className='forAddFourCard-active';
+			changeDate(this.index);
+		}
+	}
+	function changeDate(index){
+		var html='<ul class="height2 clearfix">';
+		for(var k=0;k<HEADate[index].length;k++){
+			if(k==4){
+				html+='<li class="because-it-is-deferent">';
+				html+=	'<div class="up-img">';
+				html+=		'<a href="www://kuazhu.com">';
+				html+=			'<img src="'+HEADate[index][k].img1+'" alt="">';
+				html+=		'</a>';
+				html+=	'</div>';
+				html+=	'<div class="down-img">';
+				html+=		'<a href="www://kuazhu.com">';
+				html+=			'<img src="'+HEADate[index][k].img2+'" alt="">';
+				html+=		'</a>';
+				html+=	'</div>';
+				html+='</li>';
+			}else{
+				html+='<li>';
+				html+=	'<a href="'+HEADate[index][k].aUrl+'">';
+				html+=		'<img src="'+HEADate[index][k].imgUrl+'" alt="">';
+				html+=		'<div class="for-add-background"></div>';
+				html+=		'<div class="describe">';
+				html+=			'<p>'+HEADate[index][k].name1+'</p>';
+				html+=			'<p>'+HEADate[index][k].ad+'</p>';
+				html+=			'<p><span>'+HEADate[index][k].price1+'</span>元 <del>'+HEADate[index][k].price2+'</del></p>';
+				html+=		'</div>';
+				html+=		'<div class="for-add-evaluate">';
+				html+=			'<div class="for-change-format">'+HEADate[index][k].evaluate+'';
+				html+=			'<p>来自于<span>'+HEADate[index][k].author+'</span>的评价</p>';
+				html+=		'</div>';
+				html+=	'</a>';
+				html+='</li>';	
+			}
+		}
+		html+='</ul>';
+		oDivHEA.innerHTML=html;
+	}
 }

@@ -906,3 +906,310 @@ var TabDate=[
 			}
 		]
 	]
+var HEADate=[
+		[
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1524883847.49276938!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			},
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1524883847.49276938!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			},
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1524883847.49276938!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			},
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1524883847.49276938!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			},
+			{
+				img1:'images/video3.png',
+				img2:'images/video4.png'
+			},
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1524883847.49276938!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			},
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1524883847.49276938!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			},
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1524883847.49276938!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			}
+		],
+		[
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1540366231.87578189!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			},
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1540366231.87578189!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			},
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1540366231.87578189!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			},
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1540366231.87578189!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			},
+			{
+				img1:'images/video3.png',
+				img2:'images/video4.png'
+			},
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1540366231.87578189!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			},
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1540366231.87578189!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			},
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1540366231.87578189!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			}
+		],
+		[
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1472609961.95298675!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			},
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1472609961.95298675!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			},
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1472609961.95298675!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			},
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1472609961.95298675!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			},
+			{
+				img1:'images/video3.png',
+				img2:'images/video4.png'
+			},
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1472609961.95298675!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			},
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1472609961.95298675!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			},
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1472609961.95298675!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			}
+		],
+		[
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1510111588.69169839!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			},
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1510111588.69169839!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			},
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1510111588.69169839!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			},
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1510111588.69169839!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			},
+			{
+				img1:'images/video3.png',
+				img2:'images/video4.png'
+			},
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1510111588.69169839!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			},
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1510111588.69169839!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			},
+			{
+				aUrl:'https://www.kuazhu.com',
+				imgUrl:'https://i1.mifile.cn/a1/pms_1510111588.69169839!220x220.jpg',
+				name1:'红米Note 5 3GB+32GB 魔力蓝',
+				ad:'Al双摄/5.99全面屏/晓龙636处理器/你值得拥有',
+				price1:'884',
+				price2:'1099元',
+				evaluate:'真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖真的太好用啦，买卖',
+				author:'李***'
+			}
+		],
+		
+	]
