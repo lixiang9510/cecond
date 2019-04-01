@@ -1,0 +1,471 @@
+a{
+	color:#777;
+}
+/*top*/
+.top{
+	height: 50px;
+	background: #2b2c2e;
+	position: relative;
+}
+.top .logo{
+	float: left;
+	height: 50px;
+	position: absolute;
+	top: 15px;
+	left: 20px;
+}
+.top img{
+	width: 20px;
+	height: 20px;
+}
+.top .ul1{
+	float: left;
+	position: absolute;
+	top: 15px;
+	left: 340px;
+}
+.top .ul1 li{
+	float: left;
+	margin-right: 50px;
+}
+.top .ul1 li a{
+	font-size: 13px;
+	color:#bfbfc0;
+}
+.top .ul1 li:nth-child(1) a{
+	font-weight: 600;
+	color: #e5e5d4;
+}
+.top .ul1 li:hover a{
+	color: #fff;
+}
+.top .shopcart{
+	float: right;
+	position: absolute;
+	top: 15px;
+	right: 30px;
+}
+.top .shopcart .cart-box{
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	background: #fff;
+	position: absolute;
+	top: 35px;
+	right: 0px;
+	display: none;
+}
+.top .shopcart .cart-box img{
+	width: 80px;
+	height: 80px;
+	margin-top: 70px;
+}
+.top .shopcart .cart-box p:nth-of-type(1){
+	font-size: 18px;
+	color: #333;
+	margin-top: 30px;
+}
+.top .shopcart .cart-box p:nth-of-type(2){
+	font-size: 12px;
+	color: #b0b0b0;
+	margin-top: 10px;
+}
+.top .shopcart:hover .cart-box{
+	display: block;
+}
+.top .users{
+	float: right;
+	position: absolute;
+	top: 15px;
+	right: 80px;
+}
+/*header*/
+.header{
+	height: 95px;
+	background: #fff;
+}
+.header .ul2{
+	float: left;
+	height: 95px;
+	line-height: 95px;
+}
+.header .ul2 li{
+	float: left;
+	/*height: 25px;*/
+	margin-right: 40px;
+	/*margin-top: 35px;*/
+}
+.header .ul2 li a{
+	height: 25px;
+	font-size: 16px;
+	color: #4f4f4f;
+}
+.header .ul2 li:nth-child(1),
+.header .ul2 li:nth-child(2){
+	color: #333;
+	font-weight: bolder;
+}
+.header .ul2 li:hover a{
+	color: #3965d5;
+}
+.header .inputer{
+	float: right;
+	width: 412px;
+	height: 45px;
+	margin-right: 25px;
+	margin-top: 25px;
+	position: relative;
+}
+.header .inputer input{
+	outline: none;
+	width: 412px;
+	height: 45px;
+	border: 1px solid #ececec;
+	border-radius: 25px;
+	padding-left: 50px;
+	box-sizing: border-box;
+}
+.header .inputer i{
+	color: #b2b2b2;
+	font-size:25px;
+	position: absolute;
+	top: 10px;
+	left: 15px;
+}
+.header .inputer p a{
+	display: block;
+	height: 25px;
+	background: #e5efff;
+	color: #3965d5;
+	font-size: 14px;
+	font-weight: bold;
+	border: 1px solid #c9d9fb;
+	border-radius: 25px;
+	padding:0 10px 0 10px;
+	box-sizing: border-box; 
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -13px;
+}
+.header .inputer .input-list .ul3{
+	width: 412px;
+	height: 475px;
+	padding: 20px 0 0px 25px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	background: #fff;
+	position: absolute;
+	top: 72px;
+	left: 0;
+}
+.inputer .input-list .ul3 li{
+	height: 43px;
+	line-height: 43px;
+}
+.inputer .input-list .ul3 li a{
+	color: #5a5a5a;
+	font-size: 19px;
+	font-weight: 500;
+}
+.inputer .input-list .ul3 li:hover a{
+	color: #3965d5;
+	font-weight: bold;
+}
+.header .inputer .input-list .triangle{
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	border: 1px solid #d5d5d5;
+	transform: rotate(45deg);
+	/*z-index: 555;*/
+	position: absolute;
+	top: 60px;
+	left: 50px;
+}
+.header .inputer .input-list{
+	display: none;
+}
+.header .inputer input:focus ~ .input-list{
+	display: block;
+}
+.header .inputer input:focus ~ p a{
+	display: none;
+}
+/*main*/
+.main{
+	height: 2155px;
+	background: #ededed;
+}
+.main .sort-list{
+	height: 75px;
+	line-height: 75px;
+}
+.main .sort-list .ul4 li{
+	float: left;
+	margin-right: 75px;
+	margin-top: 5px;
+}
+.main .sort-list .ul4 li:nth-child(1) a{
+	margin-left: 10px;
+	color: #5683ea;
+}
+.main .sort-list .ul4 li a{
+	font-size: 18px;
+	color: #999;
+}
+.main .sort-list .ul4 li a:hover{
+	color: #5683ea;
+}
+.main .phone-goods ul{
+	height: 1800px;
+	margin: 10px 0px 40px; 
+}
+.main .phone-goods .ul5 li{
+	float: left;
+	width: 304px;
+	height: 450px;
+	background: #fff;
+	border: 1px solid #efefef;
+	border-right: none;
+	text-align: center;
+	position: relative;
+	transition: all 0.5s;
+}
+.main .phone-goods .ul5 li:first-child{
+	border-top-left-radius: 10px;
+}
+.main .phone-goods .ul5 li:last-child{
+	border-right: 1px solid #efefef;
+	box-sizing: border-box;
+	border-bottom-right-radius: 10px;
+	/*border-top-right-radius: 10px;*/
+}
+.main .phone-goods .ul5 li:nth-child(16){
+	border-bottom-left-radius: 10px;
+}
+.main .phone-goods .ul5 li:nth-child(19),
+.main .phone-goods .ul5 li:nth-child(20){
+	border-left: none;
+}
+.main .phone-goods .ul5>li:hover{
+	box-shadow: 1px 1px 40px 1px #efefef inset;
+}
+.main .phone-goods .ul5 li img{
+	width: 145px;
+	height: 230px;
+	margin-top: 30px;
+}
+.main .phone-goods .ul5 li p{
+	font-size: 18px;
+	color: #333;
+	margin-top: 70px;
+	margin-bottom: 10px;
+}
+.main .phone-goods .ul5 li span{
+	color: #808080;
+	font-size: 14px;
+}
+.main .phone-goods .ul5 li strong{
+	display: block;
+	margin-top: 10px;
+	color: #d44d44;
+	font-size: 22px;
+	font-weight: bold;
+}
+.main .phone-goods .ul5 li em{
+	display: block;
+	color: #a06e37;
+    background: #fffbdf;
+	padding: 3px 8px;
+	font-size: 16px;
+	font-weight: 600;
+	box-sizing: border-box;
+	border: 1px solid #d5b480;
+	border-radius: 13px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.main .service{
+	height: 200px;
+	margin-top: 15px;
+	background: #fff;
+	text-align: center;	
+	border-radius: 6px;
+}
+.main .service ul li{
+	float: left;
+	width: 25%;
+	height: 193px;
+	padding-top: 44px;
+	box-sizing: border-box;
+	margin-bottom: 40px;
+}
+.main .service ul li i{
+	font-size: 48px;
+	color: #8d8d8d;
+}
+.main .service ul li p{
+	color: #333;
+	font-size: 22px;
+	margin-top: 10px;
+	margin-bottom: 8px;
+}.main .service ul li span{
+	font-size: 18px;
+	color: #a8a8a8;
+}
+/*footer*/
+.footer{
+	background: #fafafa;
+	height: 280px;
+}
+.footer-serve{
+	padding-bottom: 50px;
+	height: 280px;
+	border-bottom: 1px solid #e6e6e6;
+	box-sizing: border-box;
+	margin-bottom: 60px;
+}
+.footer-serve .serve-link{
+	float: left;
+	margin: 50px 0;
+}
+.footer-serve .serve-link dl{
+	float: left;
+	margin-left: 120px;
+}
+.footer-serve .serve-link dl:first-child{
+	margin-left: 0px;
+}
+.footer-serve .serve-link dl dt{
+	margin-bottom: 40px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #646464;
+}
+.footer-serve .serve-link dl dd{
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+.footer-serve .serve-link dl dd a{
+	color: #969696; 
+}
+.footer-serve .serve-link dl dd a:hover{
+	color: #5079d9;
+}
+.footer-serve .serve-help{
+	float: right;
+	width: 280px;
+	text-align: right;
+	margin: 60px 0;
+}
+.footer-serve .serve-help p:first-child{
+	font-size: 25px;
+	font-weight: bold;
+	color: #5079d9;
+	margin-bottom: 16px;
+}
+.footer-serve .serve-help p:nth-child(2){
+	color: #999;
+	font-size: 16px;
+}
+.footer-serve .serve-help p:nth-child(3){
+	color: #999;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.footer-serve .serve-help a{
+	display: block;
+	width: 160px;
+	height: 40px;
+	border: 1px solid #d0d0d0;
+	border-radius: 5px;	
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+	color: #5079d9;
+	font-weight: bold;
+	margin-left: 120px;
+}
+.footer-serve .serve-help a:hover{
+	box-shadow: 1px 1px 40px 1px #efefef inset; 
+}
+.footer-serve .serve-help a i{
+	font-size: 16px;
+	margin-right: 7px;
+	color: #5079d9;
+}
+/*end部分*/
+.end{
+	height: 160px;
+	background: #fafafa;
+}
+.end-por{
+	padding: 30px 0 23px 0;
+	box-sizing: border-box;
+}
+.end-por .por-link{
+	float: left;
+}
+.end-por .por-link .link-stt{
+	float: left;
+}
+.end-por .por-link .link-stt li{
+	float: left;
+	margin-right: 18px;
+}
+.end-por .por-link p{
+	float: left;
+	margin-right: 20px;
+	color: #bdbdbd;
+	font-size: 16px;
+}
+.end-por .por-link .link-stt li a{
+	font-size: 16px;
+	color: #bdbdbd;
+	border-left: 1px solid #bdbdbd;
+	padding-left: 10px;
+}
+.end-por .por-link .link-stt li a:hover{
+	color: #5079d9;
+}
+.end-por .por-link .link-police{
+	float: left;
+	margin-top: 12px;
+}
+.end-por .por-link .link-police li{
+	float: left;
+	margin-left: 15px;
+}
+.end-por .por-link .link-police li:first-child{
+	margin-left: 0px;
+}
+.end-por .por-link .link-police li a{
+	font-size: 16px;
+	color: #bdbdbd;
+}
+.end-por .por-CN{
+	float: right;
+	position: relative;
+	box-sizing: border-box;
+}
+.end-por .por-CN a span{
+	line-height: 20px;
+	font-size: 18px;
+	vertical-align: top;
+	color: #333;
+}
+.end-por .por-CN a i:first-child{
+	font-size: 24px;
+	color: red;
+	margin-right: 10px;
+}
+.end-por .por-CN a i:last-child{
+	float: right;
+	margin-top: 3px;
+	color: #bdbdbd;
+	font-size: 16px;
+}

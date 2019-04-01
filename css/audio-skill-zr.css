@@ -1,0 +1,167 @@
+.top{
+	width:100%;
+	height: 100px;
+	background: #131313;
+	border-bottom: 1px solid;
+}
+.top .top1{
+	width: 1224px;
+	height:100px;
+	margin: 0 auto;
+}
+.top .top1 .logo{
+	float: left;
+	width: 202px;
+	height: 40px;
+	margin-top: 35px;
+}
+.top .top1 .logo img{
+	width: 100%;
+	height: 100%;
+}
+.top .top1 .oneself{
+	float: right;
+	width: 132px;
+	height:100px;
+	line-height: 100px;
+	margin-left: 60px;
+}
+.top .top1 .oneself span{
+	font-size: 16px;
+	color:#fff;
+}
+.top .top1 .oneself i{
+	margin-left: 43px;
+	font-size: 16px;
+	color: #9b9b9b;
+}
+.top .top1 .mall{
+	float: right;
+	width: 244px;
+	height: 100px;
+	line-height: 100px;
+}
+.top .top1 .mall p{
+	display: inline-block;
+	font-size: 13px;
+}
+.top .top1 .mall .p1{
+	color: #666666;
+}
+.top .top1 .mall .p1:hover{
+	color: #fff;
+	font-weight: bold;
+}
+.top .top1 .mall .p2{
+	margin-left: 40px;
+	color: #cccccc;
+	font-weight: bold;
+}
+
+
+.header{
+	width: 100%;
+	height:40px;
+	background: #1c1c1c;
+}
+
+.header .header1{
+	width: 1224px;
+	height: 40px;
+	line-height:40px;
+	margin: 0 auto;
+}
+.header .skill a{
+	margin-right: 30px;
+	font-size: 12px;
+	color: #ccc;
+	vertical-align:top;
+	color: #555;
+}
+.header .skill a:last-child{
+	color: #ddd;
+	font-weight: bold;
+}
+.header .skill a:hover{
+	color: #fff;
+	font-weight:bold;
+}
+.header .header2{
+	position: fixed;
+	left: 0;
+	top:0;
+	width:100%;
+	height: 0px;
+	line-height: 40px;
+	background: #1c1c1c;
+	display:none;
+}
+.header .header2 .p3{
+	display: inline-block;
+	line-height: 40px;
+	font-size: 22px;
+	margin-left:200px;
+	margin-right: 20px;
+	color: #555;
+}
+
+
+
+
+.main img{
+	width:100%;
+}
+
+.end{
+	width: 100%;
+	background: #fff;
+	margin-top: -4px;
+}
+.end .box1{
+	width: 1224px;
+	margin: 0 auto;
+}
+.end .box1 ul{
+	float: left;
+	width: 630px;
+	height: 142px;
+	padding-top: 40px;
+	box-sizing: border-box;
+}
+.end .box1 ul li{
+	float: left;
+	font-size: 11px;
+	color: #bdbdbd;
+}
+.end .box1 ul li:last-child{
+	margin-top: 15px;
+	cursor: pointer;
+}
+.end .box1 ul a{
+	color: #bdbdbd;
+}
+
+.end .box1 ul a:hover{
+	color: #5079dc;
+}
+.end .box1 ul li span{
+	margin: 0 4px;
+}
+.end .box1 .box2{
+	float: right;
+	width: 195px;
+	height: 142px;
+	text-align: right;
+	padding-top: 40px;
+	box-sizing: border-box;
+}
+.end .box1 .box2 h3{
+	font-size: 17px;
+	color: #5079d9;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+.end .box1 .box2 p{
+	font-size: 11px;
+	color: #c3c3c3;
+}
